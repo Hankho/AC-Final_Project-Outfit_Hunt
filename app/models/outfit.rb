@@ -1,4 +1,4 @@
 class Outfit < ApplicationRecord
-	has_many :outfit_componentships dependent: :destroy
-	has_many :components, :through => :outfit_componentships
+	has_many :outfit_itemships, dependent: :destroy
+	has_many :items, :through => :outfit_itemships
 end
