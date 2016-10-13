@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   	resources :outfit
   end
 
+  root :to => "welcome#show"
 end
